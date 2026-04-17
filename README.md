@@ -1,12 +1,12 @@
-## 一、Project Introduction
+### 一、Project Introduction
 This project is a deep learning-based rice disease recognition system that can quickly and accurately identify common rice diseases (such as Rice Blast, BrownSpot, Bacterial Leaf Blight, etc.). It helps with the early diagnosis and prevention of diseases in agricultural production, reduces farmers' losses, and improves planting efficiency.
-## 二、Technology Stack
+### 二、Technology Stack
 1. Programming Language: Python 3.8+​
 2. Deep Learning Framework: PyTorch​
 3. Image Processing: OpenCV, PIL
-## 三、Prepare Dataset
-<p><strong>English:</strong> The recommended dataset structure is as follows:</p>
-<pre><code id="xxx" lang="plain text">Final_Dataset/
+### 三、Prepare Dataset
+<p>The recommended dataset structure is as follows:</p>
+<pre><code id="xxx" lang="plain text">1.Final_Dataset/
 ├── train/          # Training set
 │   ├── 0_Blast/     # Rice Leaf Blast
 │   ├── 1_BrownSpot/ # Brown Spot 
@@ -22,4 +22,9 @@ This project is a deep learning-based rice disease recognition system that can q
     ├── 1_BrownSpot/
     ├── 2_Blight/
     └── 3_Tungro/</code></pre>
+2.test_noise
+<p><strong>四、Run the Project</strong></p>
 
+1.train_multitask.py
+
+2.test_with_vcc.py
