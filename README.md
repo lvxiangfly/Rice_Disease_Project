@@ -1,0 +1,1 @@
+This project is a deep learning-based rice disease recognition system that can quickly and accurately identify common rice diseases (such as Rice Blast, Sheath Blight, Bacterial Leaf Blight, etc.). It helps with the early diagnosis and prevention of diseases in agricultural production, reduces farmers' losses, and improves planting efficiency.
